@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcing.API", "API\EventSourcing.API.csproj", "{FDB71C7A-6F36-4C43-B339-7451807E8E19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcing.Application", "Application\EventSourcing.Application.csproj", "{DA1196E1-FE74-41B8-9C22-E8AFBD65A15F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97A1B69E-7F53-4CA2-84CD-C8C5BD1708D7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDB71C7A-6F36-4C43-B339-7451807E8E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB71C7A-6F36-4C43-B339-7451807E8E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB71C7A-6F36-4C43-B339-7451807E8E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB71C7A-6F36-4C43-B339-7451807E8E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1196E1-FE74-41B8-9C22-E8AFBD65A15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1196E1-FE74-41B8-9C22-E8AFBD65A15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1196E1-FE74-41B8-9C22-E8AFBD65A15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1196E1-FE74-41B8-9C22-E8AFBD65A15F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67665258-73C7-4D73-B24E-20EA4DCCEFC9}
+	EndGlobalSection
+EndGlobal
